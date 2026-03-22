@@ -19,7 +19,8 @@
 # ICloseHandledScreenC2SPacket 
 
 访问「关闭界面」数据包，用于自动关闭容器或 UI
-ICommonPongC2SPacket 
+
+# ICommonPongC2SPacket 
 
 访问「响应包」数据包，用于网络延迟检测或心跳功能
 
@@ -81,15 +82,10 @@ ICommonPongC2SPacket
 
 # 以上功能所对应的模块
 
-# 功能模块 使用的 
-Accessor
+# 功能模块 使用的 Accessor
 
-# 自动操作 
-IPlayerActionC2SPacket、IPlayerInteractBlockC2SPacket、IPlayerInteractItemC2SPacket、IHandSwingC2SPacket、IUpdateSelectedSlotC2SPacket
-
-# 潜影盒查看 
-IContainerComponent、IScreenHandler
-
+# 自动操作 IPlayerActionC2SPacket、IPlayerInteractBlockC2SPacket、IPlayerInteractItemC2SPacket、IHandSwingC2SPacket、IUpdateSelectedSlotC2SPacket
+# 潜影盒查看 IContainerComponent、IScreenHandler
 # 自定义视角/摄像机 IGameRenderer
 # 着色器/视觉效果 IGameRenderer、IPostEffectProcessor
 # 模型修改/上色 IModelPart、IModelPartCuboid、IItemRenderer
